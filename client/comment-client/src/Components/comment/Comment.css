@@ -1,0 +1,20 @@
+.comment {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    position: absolute;
+}
+
+.email {
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.message {
+}
+
+.comment-content {
+    margin-left: 60px;
+}

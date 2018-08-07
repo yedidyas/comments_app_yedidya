@@ -1,0 +1,12 @@
+.text-fields {
+  width: 350px;
+}
+
+.submit-button {
+  margin-left: 264px;
+  display: inline;
+}
+
+.loading {
+  position: fixed;
+}
