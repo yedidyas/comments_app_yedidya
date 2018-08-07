@@ -3,7 +3,7 @@
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/yedidyas/comments_app_yedidya.git`
+> Clone this repo to your local machine using `https://github.com/yedidyas/comments_app_yedidya.git`
 
 ### Mongo setup
 > A running MongoDB proccess is necessary (download here: https://www.mongodb.com/download-center#community)
