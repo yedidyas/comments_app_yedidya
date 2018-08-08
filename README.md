@@ -41,7 +41,7 @@ $ npm start
 ```
 ### Port setting - Mac/Windows
 
-> Please not that the cient must run on port 3001. 
+> Please not that the client must run on port 3001. 
 > It appears that the syntax of port setting in the package.json is different between mac to windows.
 > In mac its:
 ```shell
