@@ -1,32 +1,52 @@
 # Yedidya's comments app
 ## Installation
 
-- All the `code` required to get started
-
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/yedidyas/nodejs-template.git`
+> Clone this repo to your local machine using `https://github.com/yedidyas/comments_app_yedidya.git`
 
-### Setup
+### Mongo setup
+> A running MongoDB localhost proccess on port 27017 (default port) is necessary (download here: https://www.mongodb.com/download-center#community)
 
+### Server setup
+> Go to the server's folder
+```shell
+cd comments_app_yedidya/server
+```
 > install npm packages
 
 ```shell
 $ npm install
 ```
 
-### Run
-
-> run from the terminal
-
+> Start running the server
 ```shell
 $ npm start
 ```
-### Browse
+
+### Client setup
+> Go to the client's folder
+```shell
+cd comments_app_yedidya/client
+```
+> install npm packages
+
+```shell
+$ npm install
+```
+
+> Start running the client
+```shell
+$ npm start
+```
+
+## Browse
 
 > browse from the browser
 
 ```shell
-http://localhost:3000
+http://localhost:3006
 ```
+
+
 
