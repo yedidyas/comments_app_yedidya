@@ -30,7 +30,7 @@ app.use('/', comments);
 
 // MongoDB connection
 let mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/' + config.mongo_db_name, { useNewUrlParser: true });
+mongoose.connect('mongodb://127.0.0.1:27017/' + config.mongo_db_name, { useNewUrlParser: true });
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
