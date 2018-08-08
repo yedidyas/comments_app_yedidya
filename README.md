@@ -39,7 +39,7 @@ $ npm install
 ```shell
 $ npm start
 ```
-### Mac/Windows
+### Port setting - Mac/Windows
 
 > Please not that the cient must run on port 3001. 
 > It appears that the syntax of port setting in the package.json is different between mac to windows.
@@ -51,11 +51,11 @@ $ npm start
 ```shell
 "start": "set PORT=3001 && react-scripts start"
 ```
-
+> Anyway, if you won't mention the client on which port to start, it will automaticly jump to port 3001 because port 3000 is in use by the server which is already started.
 
 ## Browse
 
-> browse from the browser
+> browse to:
 
 ```shell
 http://localhost:3001
