@@ -51,7 +51,16 @@ $ npm start
 ```shell
 "start": "set PORT=3001 && react-scripts start"
 ```
-> Anyway, if you won't mention the client on which port to start, it will automaticly jump to port 3001 because port 3000 is in use by the server which is already started.
+> The default client 'npm start' is immutable to Mac.
+
+> To start the client on Windows, run:
+```shell
+$ npm run windows-start
+```
+> To start the client on Mac, run:
+```shell
+$ npm run mac-start
+```
 
 ## Browse
 
