@@ -39,13 +39,35 @@ $ npm install
 ```shell
 $ npm start
 ```
+### Port setting - Mac/Windows
+
+> Please not that the client must run on port 3001. 
+> It appears that the syntax of port setting in the package.json is different between mac to windows.
+> In mac its:
+```shell
+"start": "export PORT=3001 && react-scripts start"
+```
+> Instead of windows which works with:
+```shell
+"start": "set PORT=3001 && react-scripts start"
+```
+> The default client 'npm start' is immutable to Mac.
+
+> To start the client on Windows, run:
+```shell
+$ npm run windows-start
+```
+> To start the client on Mac, run:
+```shell
+$ npm run mac-start
+```
 
 ## Browse
 
-> browse from the browser
+> browse to:
 
 ```shell
-http://localhost:3006
+http://localhost:3001
 ```
 
 
